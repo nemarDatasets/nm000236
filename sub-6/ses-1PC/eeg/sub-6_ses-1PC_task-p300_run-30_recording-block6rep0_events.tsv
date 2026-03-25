@@ -1,0 +1,13 @@
+﻿onset	duration	trial_type	value	sample
+1.908203125	1.0	Target	2	977
+2.349609375	1.0	NonTarget	1	1203
+2.5859375	1.0	NonTarget	1	1324
+3.310546875	1.0	NonTarget	1	1695
+3.5859375	1.0	NonTarget	1	1836
+3.81640625	1.0	NonTarget	1	1954
+4.5703125	1.0	NonTarget	1	2340
+4.798828125	1.0	Target	2	2457
+5.255859375	1.0	NonTarget	1	2691
+5.587890625	1.0	NonTarget	1	2861
+5.833984375	1.0	NonTarget	1	2987
+6.248046875	0.751953	NonTarget	1	3199

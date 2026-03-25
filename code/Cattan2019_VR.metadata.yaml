@@ -1,0 +1,161 @@
+_dataset:
+  class: Cattan2019_VR
+  code: Cattan2019-VR
+  doi: https://doi.org/10.5281/zenodo.2605204
+  interval:
+  - 0
+  - 1.0
+  n_subjects: 21
+  paradigm: p300
+abstract: Dataset contains electroencephalographic recordings on 21 subjects doing a visual P300 experiment on PC and VR.
+  The visual P300 is an event-related potential elicited by a visual stimulation, peaking 240–600 ms after stimulus onset.
+  The experiment compares P300-based BCI on PC vs VR headset (passive HMD with smartphone) concerning physiological, subjective
+  and performance aspects. EEG recorded with 16 electrodes. Experiment conducted at GIPSA-lab in 2018.
+acquisition:
+  cap_manufacturer: EasyCap
+  cap_model: EC20
+  channel_types:
+    eeg: 16
+  filters: no digital filter applied
+  ground: AFZ
+  hardware: g.USBamp (g.tec, Schiedlberg, Austria)
+  line_freq: 50.0
+  montage: 10-10
+  n_channels: 16
+  reference: right earlobe
+  sampling_rate: 512.0
+  sensor_type: wet electrodes
+  sensors:
+  - Fp1
+  - Fp2
+  - Fc5
+  - Fz
+  - Fc6
+  - T7
+  - Cz
+  - T8
+  - P7
+  - P3
+  - Pz
+  - P4
+  - P8
+  - O1
+  - Oz
+  - O2
+  software: OpenVibe
+bci_application:
+  applications:
+  - speller
+  environment: PC and Virtual Reality (VRElegiant HMD with Huawei Ascend Mate 7 smartphone)
+contributing_labs:
+- GIPSA-lab
+cross_validation:
+  evaluation_type:
+  - cross_session
+data_structure:
+  n_blocks: 12
+  n_trials:
+    non_target: 600
+    target: 120
+  n_trials_per_class:
+    non_target: 600
+    target: 120
+  trials_context: 'per session: 12 blocks × 5 repetitions × 12 flashes per repetition (2 target, 10 non-target)'
+documentation:
+  acknowledgements: promoted by the IHMTEK Company
+  associated_paper_doi: hal-02078533v3
+  country: FR
+  data_url: https://doi.org/10.5281/zenodo.2605204
+  description: EEG recordings of 21 subjects doing a visual P300 experiment on PC and VR to compare BCI performance and user
+    experience
+  doi: 10.5281/zenodo.2605204
+  ethics_approval:
+  - Ethical Committee of the University of Grenoble Alpes (Comité d'Ethique pour la Recherche Non-Interventionnelle)
+  funding:
+  - IHMTEK Company (Interaction Homme-Machine Technologie)
+  institution: GIPSA-lab
+  institution_address: GIPSA-lab, 11 rue des Mathématiques, Grenoble Campus BP46, F-38402, France
+  institution_department: GIPSA-lab, CNRS, University Grenoble-Alpes, Grenoble INP
+  investigators:
+  - Grégoire Cattan
+  - Anton Andreev
+  - Pedro Luiz Coelho Rodrigues
+  - Marco Congedo
+  keywords:
+  - Electroencephalography (EEG)
+  - P300
+  - Brain-Computer Interface (BCI)
+  - Virtual Reality (VR)
+  - experiment
+  license: CC-BY-4.0
+  publication_year: 2019
+  repository: Zenodo
+  senior_author: Marco Congedo
+experiment:
+  class_labels:
+  - Target
+  - NonTarget
+  events:
+    NonTarget: 1
+    Target: 2
+  feedback_type: visual
+  instructions: focus on a red-squared target symbol while groups of six symbols flash
+  mode: offline
+  n_classes: 2
+  paradigm: p300
+  primary_modality: visual
+  stimulus_modalities:
+  - visual
+  stimulus_presentation:
+    description: 6x6 matrix of white crosses; groups of 6 symbols flash; each symbol flashes exactly 2 times per repetition
+    platform: Unity engine exported to PC and VR
+  stimulus_type: flashing white crosses in 6x6 matrix
+  study_design: randomized session order (PC vs VR); limit eye blinks, head movements and face muscular contractions
+file_format: mat, csv
+methodology: 'Two randomized sessions (PC and VR). Each session: 12 blocks of 5 repetitions. Each repetition: 12 flashes of
+  groups of 6 symbols, ensuring each symbol flashes exactly 2 times. Target flashes twice per repetition (2 target flashes),
+  non-target flashes 10 times. Random feedback given after each repetition (70% expected accuracy). P300 interface: 6x6 matrix
+  of white flashing crosses with red-squared target. VR used passive HMD (VRElegiant) with Huawei Mate 7 smartphone. IMU deactivated
+  to prevent drift. Unity engine used for identical visual stimulation across PC and VR.'
+n_contributing_labs: 1
+paradigm_specific:
+  detected_paradigm: p300
+  n_repetitions: 12
+  n_targets: 1
+participants:
+  age_max: 44.0
+  age_mean: 26.38
+  age_min: 19.0
+  age_std: 5.78
+  bci_experience: 'varied gaming experience: some played video games occasionally, some played First Person Shooters; varied
+    VR experience from none to repetitive'
+  gender:
+    female: 7
+    male: 14
+  health_status: healthy
+  n_subjects: 21
+  species: homo sapiens
+preprocessing:
+  data_state: 'raw EEG with software tagging via USB (note: tagging introduces jitter and latency - mean 38ms in PC, 117ms
+    in VR)'
+  notes: 'mean tagging latency: ~38 ms in PC, ~117 ms in VR due to different hardware/software setup; these latencies should
+    be used to correct ERPs'
+runs_per_session: 60
+sessions:
+- PC
+- VR
+sessions_per_subject: 1
+signal_processing:
+  classifiers:
+  - xDAWN
+  - Riemannian
+  feature_extraction:
+  - Covariance/Riemannian
+  - xDAWN
+tags:
+  modality:
+  - Visual
+  pathology:
+  - Healthy
+  type:
+  - Perception
