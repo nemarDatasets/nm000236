@@ -1,0 +1,110 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Grégoire Cattan": {
+      "orcid": "0000-0002-7515-0690",
+      "affiliations": [
+        {
+          "name": "GIPSA-lab, IHMTEK"
+        }
+      ]
+    },
+    "Anton Andreev": {},
+    "Pedro Luiz Coelho Rodrigues": {},
+    "Marco Congedo": {
+      "orcid": "0000-0003-2196-0409",
+      "affiliations": [
+        {
+          "name": "GIPSA-lab"
+        }
+      ]
+    }
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.2605204",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000236",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000236",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "IHMTEK Company (Interaction Homme-Machine Technologie)"
+    },
+    {
+      "funder_name": "IHMTEK Company"
+    }
+  ],
+  "title": "Dataset of an EEG-based BCI experiment in Virtual Reality using P300",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "375.6 MB (2521 files)"
+  ],
+  "formats": [
+    ".bdf",
+    ".json",
+    ".md",
+    ".tsv",
+    ".yaml",
+    ".yml"
+  ],
+  "description": "This dataset comprises electroencephalographic recordings from 21 healthy subjects performing a visual P300-based brain-computer interface task in two environments: a personal computer and a virtual reality headset. The study compares BCI performance and user experience across these modalities using a 6×6 matrix speller paradigm with 16-channel EEG acquisition at 512 Hz. The dataset includes raw EEG data with event annotations and timing information relevant for event-related potential analysis.",
+  "methods_description": "EEG was recorded from 21 subjects using 16 electrodes (10-10 montage) at 512 Hz sampling rate with a g.USBamp amplifier and wet electrodes. Two randomized sessions (PC and VR) were conducted, each consisting of 12 blocks of 5 repetitions. Each repetition involved 12 flashes of groups of 6 symbols in a 6×6 matrix, with target and non-target stimuli presented visually. The VR condition used a passive HMD (VRElegiant) with a Huawei Ascend Mate 7 smartphone. Visual feedback was provided after each repetition. Reference electrode was placed at the right earlobe with ground at AFZ.",
+  "keywords": [
+    {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
+      "term": "P300"
+    },
+    {
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+    },
+    {
+      "term": "Virtual Reality"
+    },
+    {
+      "term": "Event-Related Potentials, P300",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
+    },
+    {
+      "term": "Visual Perception",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D014796"
+    }
+  ],
+  "source_hash": "97cb2c7491e48ddebd32d3bcffaaa1086c05555e5b2391af1c17fdd9e00b0f9a"
+}
