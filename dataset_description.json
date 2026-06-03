@@ -1,46 +1,48 @@
 {
-	"Name": "Dataset of an EEG-based BCI experiment in Virtual Reality using P300",
-	"BIDSVersion": "1.9.0",
-	"HEDVersion": "8.4.0",
-	"DatasetType": "derivative",
-	"License": "CC-BY-4.0",
-	"Authors": [
-		"Gr\u00e9goire Cattan",
-		"Anton Andreev",
-		"Pedro Luiz Coelho Rodrigues",
-		"Marco Congedo"
-	],
-	"Acknowledgements": "promoted by the IHMTEK Company",
-	"Funding": [
-		"IHMTEK Company (Interaction Homme-Machine Technologie)"
-	],
-	"EthicsApprovals": [
-		"Ethical Committee of the University of Grenoble Alpes (Comit\u00e9 d'Ethique pour la Recherche Non-Interventionnelle)"
-	],
-	"ReferencesAndLinks": [
-		"https://doi.org/10.5281/zenodo.2605204",
-		"hal-02078533v3"
-	],
-	"GeneratedBy": [
-		{
-			"CodeURL": "https://github.com/NeuroTechX/moabb",
-			"Name": "moabb",
-			"Description": "Mother of All BCI Benchmarks",
-			"Version": "1.5.0"
-		}
-	],
-	"SourceDatasets": [
-		{
-			"DOI": "https://doi.org/10.5281/zenodo.2605204",
-			"URL": "https://doi.org/10.5281/zenodo.2605204"
-		}
-	],
-	"Keywords": [
-		"Electroencephalography (EEG)",
-		"P300",
-		"Brain-Computer Interface (BCI)",
-		"Virtual Reality (VR)",
-		"experiment"
-	],
-	"PublicationYear": 2019
+  "Name": "Dataset of an EEG-based BCI experiment in Virtual Reality using P300",
+  "BIDSVersion": "1.9.0",
+  "HEDVersion": "8.4.0",
+  "DatasetType": "derivative",
+  "License": "CC-BY-4.0",
+  "Authors": [
+    "Grégoire Cattan",
+    "Anton Andreev",
+    "Pedro Luiz Coelho Rodrigues",
+    "Marco Congedo"
+  ],
+  "Acknowledgements": "promoted by the IHMTEK Company",
+  "Funding": [
+    "IHMTEK Company (Interaction Homme-Machine Technologie)"
+  ],
+  "EthicsApprovals": [
+    "Ethical Committee of the University of Grenoble Alpes (Comité d'Ethique pour la Recherche Non-Interventionnelle)"
+  ],
+  "ReferencesAndLinks": [
+    "https://doi.org/10.5281/zenodo.2605204",
+    "hal-02078533v3"
+  ],
+  "GeneratedBy": [
+    {
+      "CodeURL": "https://github.com/NeuroTechX/moabb",
+      "Name": "moabb",
+      "Description": "Mother of All BCI Benchmarks",
+      "Version": "1.5.0"
+    }
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "https://doi.org/10.5281/zenodo.2605204",
+      "URL": "https://doi.org/10.5281/zenodo.2605204"
+    }
+  ],
+  "Keywords": [
+    "Electroencephalography (EEG)",
+    "P300",
+    "Brain-Computer Interface (BCI)",
+    "Virtual Reality (VR)",
+    "experiment"
+  ],
+  "PublicationYear": 2019,
+  "DatasetDOI": "10.82901/nemar.nm000236",
+  "Version": "1.0.0"
 }
