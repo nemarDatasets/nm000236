@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Dataset of an EEG-based BCI experiment in Virtual Reality using P300",
-  "description": "This dataset comprises electroencephalographic recordings from 21 healthy subjects performing a visual P300-based brain-computer interface task in two environments: a personal computer and a virtual reality headset. The study compares BCI performance and user experience across these modalities using a 6×6 matrix speller paradigm with 16-channel EEG acquisition at 512 Hz. The dataset includes 12 experimental blocks per session with randomized target and non-target visual stimuli, enabling investigation of P300 event-related potentials and BCI efficacy in immersive versus traditional computing contexts. Artificial random feedback (70% expected accuracy) was provided after each repetition to simulate BCI performance.",
-  "methods_description": "EEG data were acquired from 21 subjects using 16 electrodes (10-10 montage) at 512 Hz sampling rate with a g.USBamp amplifier and wet electrodes referenced to the right earlobe. Two randomized sessions (PC and VR) were conducted, each comprising 12 blocks of 5 repetitions. Each repetition consisted of 12 flashes of symbol groups in a 6×6 matrix, with target and non-target stimuli presented visually. The VR condition used a passive HMD (VRElegiant) with a Huawei Ascend Mate 7 smartphone. Visual stimulation was controlled via Unity engine to ensure consistency across modalities. Artificial random feedback (70% expected accuracy) was provided after each repetition.",
+  "description": "This dataset comprises electroencephalographic recordings from 21 healthy subjects performing a visual P300-based brain-computer interface task in two environments: a personal computer and a virtual reality headset. The study compares BCI performance and user experience across these modalities using a 6×6 matrix speller paradigm with 16-channel EEG acquisition at 512 Hz. The dataset includes 12 experimental blocks per session with randomized target and non-target visual stimuli, enabling investigation of P300 event-related potentials and BCI efficacy in immersive versus traditional computing contexts.",
+  "methods_description": "EEG data were acquired from 21 subjects using 16 electrodes (10-10 montage) at 512 Hz sampling rate with a g.USBamp amplifier and wet electrodes referenced to the right earlobe. Two randomized sessions (PC and VR) were conducted, each comprising 12 blocks of 5 repetitions. Each repetition consisted of 12 flashes of groups of 6 symbols in a 6×6 matrix, with target and non-target stimuli presented visually. VR stimulation was delivered via a passive HMD (VRElegiant) with Huawei Mate 7 smartphone. Visual feedback was provided after each repetition. Data were recorded with OpenVibe software using the Unity engine for stimulus presentation.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -33,9 +33,7 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     },
     {
-      "term": "P300 event-related potential",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D018876"
+      "term": "P300"
     },
     {
       "term": "Brain-Computer Interfaces",
@@ -43,17 +41,18 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
     },
     {
-      "term": "Virtual reality",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D014584"
+      "term": "Virtual Reality"
     },
     {
-      "term": "Visual evoked potentials",
+      "term": "Event-Related Potentials, P300",
       "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D005074"
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
     },
     {
-      "term": "experiment"
+      "term": "Visual Perception",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D014796"
     }
   ],
   "related_identifiers": [
@@ -88,8 +87,7 @@
       "funder_name": "IHMTEK Company (Interaction Homme-Machine Technologie)"
     },
     {
-      "funder_name": "IHMTEK Company",
-      "award_title": "Interaction Homme-Machine Technologie"
+      "funder_name": "IHMTEK Company"
     }
   ],
   "resource_type_general": "Dataset",
@@ -109,5 +107,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "5c96e76730ac3db690fc1f7fb15427f03c49ff0210d49d432748f9dd4e47c4b6"
+  "source_hash": "69ad059ef10f224bb356b5d4fd4e4f94d0feb15666b50fab869e8da32a6fd377"
 }
