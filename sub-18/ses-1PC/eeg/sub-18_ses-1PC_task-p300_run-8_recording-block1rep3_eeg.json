@@ -19,7 +19,9 @@
 	"CapManufacturer": "EasyCap",
 	"CapManufacturersModelName": "EC20",
 	"HardwareFilters": {
-		"HardwareFilter": "no digital filter applied"
+		"HardwareFilter": {
+			"Description": "no digital filter applied"
+		}
 	},
 	"TaskDescription": "randomized session order (PC vs VR); limit eye blinks, head movements and face muscular contractions",
 	"Instructions": "focus on a red-squared target symbol while groups of six symbols flash",
