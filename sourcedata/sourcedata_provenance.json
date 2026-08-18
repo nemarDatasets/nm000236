@@ -14,212 +14,255 @@
   {
    "file": "subject_01_PC.mat",
    "bytes": 15766983,
-   "sha256": "f59277e6e742a8e8134ab7caf3df8522961abd65665901e218150d75eb549f44"
+   "sha256": "f59277e6e742a8e8134ab7caf3df8522961abd65665901e218150d75eb549f44",
+   "subject": "1"
   },
   {
    "file": "subject_01_VR.mat",
    "bytes": 17196107,
-   "sha256": "6d1db2b938e935af09ff284dc70c76c53352989f92115a8f4db79136eb031153"
+   "sha256": "6d1db2b938e935af09ff284dc70c76c53352989f92115a8f4db79136eb031153",
+   "subject": "1"
   },
   {
    "file": "subject_02_PC.mat",
    "bytes": 15902042,
-   "sha256": "7d72ca0bd5ab6914d88b66ee05db71ddd308c7cbf61491dff8fedb93fe482cd6"
+   "sha256": "7d72ca0bd5ab6914d88b66ee05db71ddd308c7cbf61491dff8fedb93fe482cd6",
+   "subject": "2"
   },
   {
    "file": "subject_02_VR.mat",
    "bytes": 16428282,
-   "sha256": "48ced36d65ff71af541ea790452c879fe61e3dcbb94184313cf8402e131f2e6e"
+   "sha256": "48ced36d65ff71af541ea790452c879fe61e3dcbb94184313cf8402e131f2e6e",
+   "subject": "2"
   },
   {
    "file": "subject_03_PC.mat",
    "bytes": 14264109,
-   "sha256": "4f5d75076442c07f265e1f0f433acdc26128185da48dd5511826655c5b757bce"
+   "sha256": "4f5d75076442c07f265e1f0f433acdc26128185da48dd5511826655c5b757bce",
+   "subject": "3"
   },
   {
    "file": "subject_03_VR.mat",
    "bytes": 13548121,
-   "sha256": "6578b12c6e3a7adfede8bacea1cb0828d0c5c75d7b8642ada8761ef2f7f15b60"
+   "sha256": "6578b12c6e3a7adfede8bacea1cb0828d0c5c75d7b8642ada8761ef2f7f15b60",
+   "subject": "3"
   },
   {
    "file": "subject_04_PC.mat",
    "bytes": 13906114,
-   "sha256": "1f580918d1b324cef0b4467a6c6c18b0a2cb47646d0844bca63eccab55e2c9ac"
+   "sha256": "1f580918d1b324cef0b4467a6c6c18b0a2cb47646d0844bca63eccab55e2c9ac",
+   "subject": "4"
   },
   {
    "file": "subject_04_VR.mat",
    "bytes": 16836105,
-   "sha256": "4cdffe8b7948ea010aff300df5fb78f1fac66fa85404c9103460625cd5b4eb46"
+   "sha256": "4cdffe8b7948ea010aff300df5fb78f1fac66fa85404c9103460625cd5b4eb46",
+   "subject": "4"
   },
   {
    "file": "subject_05_PC.mat",
    "bytes": 15629928,
-   "sha256": "fcef79f7e3fd44596cb355fa60df0c95a0a72020f6016f7be7f59d1f1b7ec531"
+   "sha256": "fcef79f7e3fd44596cb355fa60df0c95a0a72020f6016f7be7f59d1f1b7ec531",
+   "subject": "5"
   },
   {
    "file": "subject_05_VR.mat",
    "bytes": 15696306,
-   "sha256": "1df0710998ed5665986cb2e62496016e7113377bebb2e58aaaa0f281d7577dec"
+   "sha256": "1df0710998ed5665986cb2e62496016e7113377bebb2e58aaaa0f281d7577dec",
+   "subject": "5"
   },
   {
    "file": "subject_06_PC.mat",
    "bytes": 13948962,
-   "sha256": "2328c5d0d97a39d10446a683bb9ce5db53e67ba79c0cc7e3a10cfef58d328361"
+   "sha256": "2328c5d0d97a39d10446a683bb9ce5db53e67ba79c0cc7e3a10cfef58d328361",
+   "subject": "6"
   },
   {
    "file": "subject_06_VR.mat",
    "bytes": 13886383,
-   "sha256": "40d4384831cf2ad9c4780678a3fa67bc64684bfe6a1b2ef8ea0f42c9a397b267"
+   "sha256": "40d4384831cf2ad9c4780678a3fa67bc64684bfe6a1b2ef8ea0f42c9a397b267",
+   "subject": "6"
   },
   {
    "file": "subject_07_PC.mat",
    "bytes": 13704501,
-   "sha256": "d191320560aced1c3074ab7e0529c5f592f3802ff858983dbfd7e3018a17fabd"
+   "sha256": "d191320560aced1c3074ab7e0529c5f592f3802ff858983dbfd7e3018a17fabd",
+   "subject": "7"
   },
   {
    "file": "subject_07_VR.mat",
    "bytes": 16232471,
-   "sha256": "0f6d8ddb5ceec7ef667c135cb83d2b3484729bfc13191d8691ae5b354abbd26b"
+   "sha256": "0f6d8ddb5ceec7ef667c135cb83d2b3484729bfc13191d8691ae5b354abbd26b",
+   "subject": "7"
   },
   {
    "file": "subject_08_PC.mat",
    "bytes": 15202813,
-   "sha256": "15ee637957751e074d2f82665498c643fa734bc6ad6e0ec162bd6199bb1bd289"
+   "sha256": "15ee637957751e074d2f82665498c643fa734bc6ad6e0ec162bd6199bb1bd289",
+   "subject": "8"
   },
   {
    "file": "subject_08_VR.mat",
    "bytes": 14197874,
-   "sha256": "b9122816c3509e4e990de42aef4b3e4fa17a46bc3d1591924779ebf3843dc1cd"
+   "sha256": "b9122816c3509e4e990de42aef4b3e4fa17a46bc3d1591924779ebf3843dc1cd",
+   "subject": "8"
   },
   {
    "file": "subject_09_PC.mat",
    "bytes": 16795864,
-   "sha256": "11c19e87eefd8f4a68967fa224b7303faccf5434221d1e083ed6992d31e52f41"
+   "sha256": "11c19e87eefd8f4a68967fa224b7303faccf5434221d1e083ed6992d31e52f41",
+   "subject": "9"
   },
   {
    "file": "subject_09_VR.mat",
    "bytes": 15157427,
-   "sha256": "0a0eb52fdd3c9869cd032d8efdf14837160a68ac9a055cb22afcdf5918c29530"
+   "sha256": "0a0eb52fdd3c9869cd032d8efdf14837160a68ac9a055cb22afcdf5918c29530",
+   "subject": "9"
   },
   {
    "file": "subject_10_PC.mat",
    "bytes": 20586556,
-   "sha256": "74b56f3b7515dd36d5401103dd88889e1d44e3e9b23df2923ca20bc90b6ce445"
+   "sha256": "74b56f3b7515dd36d5401103dd88889e1d44e3e9b23df2923ca20bc90b6ce445",
+   "subject": "10"
   },
   {
    "file": "subject_10_VR.mat",
    "bytes": 16050932,
-   "sha256": "e05215a29a9bd7a301f0953977e022a4a5fd138c27dd73b203c3d3504aaf2193"
+   "sha256": "e05215a29a9bd7a301f0953977e022a4a5fd138c27dd73b203c3d3504aaf2193",
+   "subject": "10"
   },
   {
    "file": "subject_11_PC.mat",
    "bytes": 17538850,
-   "sha256": "3a1c25fd37b5c687924927f3d7c39c9ea5db1f9801cf5abae04f6888e12219b7"
+   "sha256": "3a1c25fd37b5c687924927f3d7c39c9ea5db1f9801cf5abae04f6888e12219b7",
+   "subject": "11"
   },
   {
    "file": "subject_11_VR.mat",
    "bytes": 18747696,
-   "sha256": "d24c55cca3fba8c77c48c54fab2f0d036e41f641cdbef53d4599a7be06b49b84"
+   "sha256": "d24c55cca3fba8c77c48c54fab2f0d036e41f641cdbef53d4599a7be06b49b84",
+   "subject": "11"
   },
   {
    "file": "subject_12_PC.mat",
    "bytes": 16649872,
-   "sha256": "c888ae33674ce76779f4247303c22ab60eb85bb5a3d6f3def1fb5bfde6dbc06b"
+   "sha256": "c888ae33674ce76779f4247303c22ab60eb85bb5a3d6f3def1fb5bfde6dbc06b",
+   "subject": "12"
   },
   {
    "file": "subject_12_VR.mat",
    "bytes": 15591215,
-   "sha256": "804406d8206b9222030fc6325db0cc73022590a7274fe227017538cf27effb44"
+   "sha256": "804406d8206b9222030fc6325db0cc73022590a7274fe227017538cf27effb44",
+   "subject": "12"
   },
   {
    "file": "subject_13_PC.mat",
    "bytes": 15044435,
-   "sha256": "dbce26376a9dc115a713f6ecbb491d640497e1c9ca5a4a82f36c5c52f0391129"
+   "sha256": "dbce26376a9dc115a713f6ecbb491d640497e1c9ca5a4a82f36c5c52f0391129",
+   "subject": "13"
   },
   {
    "file": "subject_13_VR.mat",
    "bytes": 15631157,
-   "sha256": "4b5fb9761c0286c39cbee694cb0a1932b13119959e31b63e36b2c7a8a370fe8c"
+   "sha256": "4b5fb9761c0286c39cbee694cb0a1932b13119959e31b63e36b2c7a8a370fe8c",
+   "subject": "13"
   },
   {
    "file": "subject_14_PC.mat",
    "bytes": 15663047,
-   "sha256": "0d0b4fdfd5a6fcc5799a04fb64f5a93a2627aa5ad709fc1a83ef1add87d6ebc9"
+   "sha256": "0d0b4fdfd5a6fcc5799a04fb64f5a93a2627aa5ad709fc1a83ef1add87d6ebc9",
+   "subject": "14"
   },
   {
    "file": "subject_14_VR.mat",
    "bytes": 16119903,
-   "sha256": "d8a666f073691dbca442ca10d906b6c6a92c2993bb94ea0bb95a87807d0b5e5a"
+   "sha256": "d8a666f073691dbca442ca10d906b6c6a92c2993bb94ea0bb95a87807d0b5e5a",
+   "subject": "14"
   },
   {
    "file": "subject_15_PC.mat",
    "bytes": 15840276,
-   "sha256": "74f31ee38201fce9e6bce24013adbeed0f7316769113301698b80ea00082a136"
+   "sha256": "74f31ee38201fce9e6bce24013adbeed0f7316769113301698b80ea00082a136",
+   "subject": "15"
   },
   {
    "file": "subject_15_VR.mat",
    "bytes": 15585615,
-   "sha256": "6c4f6935c224714b6b2d4cf0f5a78c77dde53cc84fdc93906ada920d2ad00d81"
+   "sha256": "6c4f6935c224714b6b2d4cf0f5a78c77dde53cc84fdc93906ada920d2ad00d81",
+   "subject": "15"
   },
   {
    "file": "subject_16_PC.mat",
    "bytes": 16466012,
-   "sha256": "a681542cfb3ea5b294f9feb7765198a5cfd98b15673582e9992b95eef8eb0c3e"
+   "sha256": "a681542cfb3ea5b294f9feb7765198a5cfd98b15673582e9992b95eef8eb0c3e",
+   "subject": "16"
   },
   {
    "file": "subject_16_VR.mat",
    "bytes": 16392673,
-   "sha256": "47ead4195a2dcb79e9d09f87fb7e573e1c3780ca3ee9e5b7acd83eccc4e09b3c"
+   "sha256": "47ead4195a2dcb79e9d09f87fb7e573e1c3780ca3ee9e5b7acd83eccc4e09b3c",
+   "subject": "16"
   },
   {
    "file": "subject_17_PC.mat",
    "bytes": 14802328,
-   "sha256": "20cf18d665ee94df204d134c211b492b0f28a3a6061574e041a809291499b858"
+   "sha256": "20cf18d665ee94df204d134c211b492b0f28a3a6061574e041a809291499b858",
+   "subject": "17"
   },
   {
    "file": "subject_17_VR.mat",
    "bytes": 15591886,
-   "sha256": "1f3ca1c950c3a4862dedd8bb892cd73d6e3158541ffa4119aa13bc307bd8b65c"
+   "sha256": "1f3ca1c950c3a4862dedd8bb892cd73d6e3158541ffa4119aa13bc307bd8b65c",
+   "subject": "17"
   },
   {
    "file": "subject_18_PC.mat",
    "bytes": 15520578,
-   "sha256": "a5fd36d9a2eefd5faaaeba7f6687affe29526dc5d58fada6a85c10ec67f86f18"
+   "sha256": "a5fd36d9a2eefd5faaaeba7f6687affe29526dc5d58fada6a85c10ec67f86f18",
+   "subject": "18"
   },
   {
    "file": "subject_18_VR.mat",
    "bytes": 16872686,
-   "sha256": "7a2d3b20a6b7f719180012d39179b3b080f1a8335e1b0dfc3e1652478b365c1c"
+   "sha256": "7a2d3b20a6b7f719180012d39179b3b080f1a8335e1b0dfc3e1652478b365c1c",
+   "subject": "18"
   },
   {
    "file": "subject_19_PC.mat",
    "bytes": 16543815,
-   "sha256": "666b3920622cd46ee2089f49f8c31ade68373d37f2fca9746976d284222ef0a8"
+   "sha256": "666b3920622cd46ee2089f49f8c31ade68373d37f2fca9746976d284222ef0a8",
+   "subject": "19"
   },
   {
    "file": "subject_19_VR.mat",
    "bytes": 17014774,
-   "sha256": "c19b45626bdd4187f3ba33b85166c528a43ee54a46f132ddd35b29a5433f29c4"
+   "sha256": "c19b45626bdd4187f3ba33b85166c528a43ee54a46f132ddd35b29a5433f29c4",
+   "subject": "19"
   },
   {
    "file": "subject_20_PC.mat",
    "bytes": 13419033,
-   "sha256": "41f3c1f8e60e168a5e58576e2e878c28ba189b65a7adcc1c2ad7372840fc9627"
+   "sha256": "41f3c1f8e60e168a5e58576e2e878c28ba189b65a7adcc1c2ad7372840fc9627",
+   "subject": "20"
   },
   {
    "file": "subject_20_VR.mat",
    "bytes": 13437801,
-   "sha256": "ffde2c6a5903c1d093fd08e407fd096d309fbf74d0073acc403c9181be92ef52"
+   "sha256": "ffde2c6a5903c1d093fd08e407fd096d309fbf74d0073acc403c9181be92ef52",
+   "subject": "20"
   },
   {
    "file": "subject_21_PC.mat",
    "bytes": 16085914,
-   "sha256": "12099b6b9b539bc647ff6b5db5fa97aa3e9b7a625ffc8e480f56069bc7f08f80"
+   "sha256": "12099b6b9b539bc647ff6b5db5fa97aa3e9b7a625ffc8e480f56069bc7f08f80",
+   "subject": "21"
   },
   {
    "file": "subject_21_VR.mat",
    "bytes": 15696608,
-   "sha256": "1b2470499306cde5595627005280e9cf21012a033ec4c0bdaadad0620126aa72"
+   "sha256": "1b2470499306cde5595627005280e9cf21012a033ec4c0bdaadad0620126aa72",
+   "subject": "21"
   }
- ]
+ ],
+ "n_subjects_recorded": 21
 }
