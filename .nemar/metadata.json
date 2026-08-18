@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Dataset of an EEG-based BCI experiment in Virtual Reality using P300",
-  "description": "This dataset comprises raw electroencephalographic recordings from 21 healthy subjects performing a visual P300-based brain-computer interface task in two environments: a personal computer and a virtual reality headset. The study compares BCI performance and user experience across these modalities using a 6×6 matrix speller paradigm with 16-channel EEG acquisition at 512 Hz. The dataset is derived from the original Zenodo source (10.5281/zenodo.2605204) and includes unpreprocessed raw EEG data with event annotations, intended for benchmarking P300-based BCI algorithms.",
-  "methods_description": "EEG was recorded from 21 subjects using 16 electrodes (10-10 montage) at 512 Hz sampling rate with a g.USBamp amplifier and wet electrodes. Two randomized sessions (PC and VR) were conducted, each consisting of 12 blocks of 5 repetitions. Each repetition involved 12 flashes of groups of 6 symbols in a 6×6 matrix, with target and non-target visual stimuli presented via Unity engine. VR stimulation used a passive HMD (VRElegiant) with Huawei Ascend Mate 7 smartphone. Reference electrode was placed at right earlobe with ground at AFZ.",
+  "description": "This dataset comprises electroencephalographic recordings from 21 healthy subjects performing a visual P300-based brain-computer interface task in two environments: a personal computer and a virtual reality headset. The study compares BCI performance and user experience across these modalities using a 6×6 matrix speller paradigm with 16-channel EEG recordings at 512 Hz sampling rate. The experiment was conducted at GIPSA-lab in 2018 and includes both physiological and subjective outcome measures.",
+  "methods_description": "EEG data were acquired from 21 subjects using a g.USBamp amplifier (g.tec) with 16 wet electrodes in a 10-10 montage (reference: right earlobe, ground: AFZ) at 512 Hz sampling rate. Two randomized sessions (PC and VR) were conducted per subject, each consisting of 12 blocks of 5 repetitions. Each repetition involved 12 flashes of groups of 6 symbols in a 6×6 matrix, with each symbol flashing exactly twice per repetition (2 target, 10 non-target flashes). Visual stimulation was delivered via Unity engine on PC and via a passive VRElegiant HMD with Huawei Mate 7 smartphone for VR. Random visual feedback was provided after each repetition.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -33,24 +33,26 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     },
     {
+      "term": "P300"
+    },
+    {
       "term": "Brain-Computer Interfaces",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
     },
     {
-      "term": "P300",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
+      "term": "Virtual Reality"
     },
     {
-      "term": "Virtual Reality",
+      "term": "Event-Related Potentials, P300",
       "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D014796"
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
     },
     {
       "term": "Visual Perception",
       "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D014794"
+      "value_uri": "http://id.nlm.nih.gov/mesh/D014796"
     }
   ],
   "related_identifiers": [
@@ -85,8 +87,7 @@
       "funder_name": "IHMTEK Company (Interaction Homme-Machine Technologie)"
     },
     {
-      "funder_name": "IHMTEK Company",
-      "award_title": "Interaction Homme-Machine Technologie"
+      "funder_name": "IHMTEK Company"
     }
   ],
   "resource_type_general": "Dataset",
@@ -106,5 +107,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "62dd4b50519acdb10a16d06710e07a00cb40beb0574802f34ed70a9051911f31"
+  "source_hash": "627350cb0f50d778a4223aa0c04525cb5a85ca3bf6f810669043912a7b4f1bd3"
 }
