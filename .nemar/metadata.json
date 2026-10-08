@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Dataset of an EEG-based BCI experiment in Virtual Reality using P300",
-  "description": "EEG recordings from 21 healthy participants performing a visual P300 brain-computer interface task (6x6 speller matrix of flashing crosses) in two conditions: on a personal computer and in virtual reality with a passive smartphone-based head-mounted display. The dataset was collected to compare P300-based BCI performance and user experience across the two platforms. Signals were recorded from 16 electrodes at 512 Hz at GIPSA-lab in 2018.",
-  "methods_description": "Each participant completed two randomized sessions (PC and VR), each with 12 blocks of 5 repetitions. Each repetition consisted of 12 flashes of groups of 6 symbols, so every symbol flashed exactly twice. EEG was recorded with a g.USBamp amplifier and 16 wet electrodes in an EasyCap (10-10 montage), referenced to the right earlobe with ground at AFZ. Stimulation was delivered by the Unity engine, and VR used a VRElegiant HMD with a Huawei Mate 7 smartphone. Events were tagged via USB with a mean latency of about 38 ms on PC and 117 ms in VR.",
+  "description": "EEG recordings from 21 healthy participants performing a visual P300 brain-computer interface speller task in two conditions: on a personal computer and in virtual reality with a passive smartphone-based head-mounted display. The study compares physiological, subjective and performance aspects of P300-based BCI across the two platforms. Data were recorded with 16 wet electrodes at 512 Hz at GIPSA-lab in 2018.",
+  "methods_description": "Two randomized sessions (PC and VR) per participant, each with 12 blocks of 5 repetitions. In each repetition, 12 groups of 6 symbols flashed in a 6x6 matrix, with each symbol flashing exactly twice. Stimuli were produced with the Unity engine. EEG was recorded with a g.USBamp amplifier (16 electrodes, 10-10 montage, right earlobe reference, AFZ ground) and OpenViBE software. Random feedback was given after each repetition.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -38,10 +38,12 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
     },
     {
-      "term": "P300"
+      "term": "Virtual Reality",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000076142"
     },
     {
-      "term": "Virtual Reality"
+      "term": "P300"
     },
     {
       "term": "event-related potentials"
@@ -99,5 +101,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "627350cb0f50d778a4223aa0c04525cb5a85ca3bf6f810669043912a7b4f1bd3"
+  "source_hash": "4e399c640cad744eeb837cff8fc8ca3eb0071d6ca89ebd478e6db5216b53484b"
 }
